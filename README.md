@@ -1,6 +1,6 @@
 - Crear una demo y subirla en github
 - En la cual mostrar conocimientos de:
-- abastracción
+- abstracción
 - encapsulamiento
 - herencia
 - polimorfismo
