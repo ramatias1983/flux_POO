@@ -13,6 +13,20 @@ public class Fecha {
     public Fecha(){
     }
 
+    public Fecha(String s) {
+    // busco la primera ocurrencia de '/'
+        int pos1=s.indexOf('/');
+    // busco la ultima ocurrencia de '/'
+        int pos2=s.lastIndexOf('/');
+    // proceso el dia
+        String sDia=s.substring(0,pos1); dia = Integer.parseInt(sDia);
+    // proceso el mes
+        String sMes=s.substring(pos1+1,pos2); mes = Integer.parseInt(sMes);
+    // proceso el anio
+        String sAnio = s.substring(pos2+1);
+        anio = Integer.parseInt(sAnio);
+    }
+
     public int getAnio(){
         return anio;
     }
@@ -72,6 +86,8 @@ public class Fecha {
         }
     }
 
+
+    //TODO sacarlo porque no cumple Responsabilidad Unica de SOLID
     @Override
     public String toString() {
         return "Fecha{" +
