@@ -1,4 +1,4 @@
-public class Ave {
+public abstract class Ave {
 
     private String tipo;
     private String color;
@@ -33,5 +33,8 @@ public class Ave {
     public void setTamaño(String tamaño) {
         this.tamaño = tamaño;
     }
+
+    // Método abstracto que debe ser implementado por las subclases
+    public abstract void volarAve();
 
 }

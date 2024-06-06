@@ -4,6 +4,10 @@ public class Pinguino extends Ave implements Caminador, Nadador{
         super(tipo, color, tamaño);
     }
 
+    @Override
+    public void volarAve() {
+
+    }
 
     @Override
     public void nadar() {

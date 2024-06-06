@@ -3,11 +3,13 @@
 public class Main {
     public static void main(String[] args) {
         Pato miPato = new Pato("linda","blanco","chico");
-        Aguila miAguila = new Aguila("fea","negro","mediano");
+        Ave miAguila = new Aguila("fea","negro","mediano");
         Pinguino miPinguno = new Pinguino("silvestre","gris","grande");
 
-        miPato.volar();
-        miAguila.volar();
-        miPinguno.caminar();
+        miPato.caminar();
+        miAguila.volarAve();
+        miPinguno.nadar();
+
     }
+
 }

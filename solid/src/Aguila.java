@@ -1,11 +1,12 @@
-public class Aguila extends Ave implements Volador {
+public class Aguila extends Ave {
 
     public Aguila(String tipo, String color, String tamaño) {
         super(tipo, color, tamaño);
     }
 
     @Override
-    public void volar() {
+    public void volarAve() {
         System.out.println("El pajaro está volando");
     }
+
 }
