@@ -33,7 +33,7 @@ L - Liskov Substitution Principle (LSP):
 Las subclases pueden ser reemplazadas por la clase indistintamente por la superclase Ave y no debería dar
 ningun resultado extraño.
 
--- Rebisar si está bien en nuestro caso.
+Tambien se corrige en nuestro caso.
 
 
 D - Principio de inversión de dependecia:
